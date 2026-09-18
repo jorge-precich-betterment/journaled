@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib,journaled_schemas,rbi}/**/*", "LICENSE", "Rakefile", "README.md"]
 
-  s.required_ruby_version = ">= 3.4"
+  s.required_ruby_version = ">= 3.3"
 
   s.post_install_message = File.read("UPGRADING") if File.exist?('UPGRADING')
 
